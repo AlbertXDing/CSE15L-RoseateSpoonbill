@@ -33,6 +33,10 @@ public class MarkdownParse {
            if(markdown.indexOf("!") != nextOpenBracket - 1){
                toReturn.add(markdown.substring(openParen + 1, closeParen));
            }
+           //fix for Test6 bug
+           if(nextCloseBracket + 1 != openParen){
+               break;
+           }
 
             currentIndex = closeParen + 1;
         }
