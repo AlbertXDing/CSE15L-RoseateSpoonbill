@@ -19,7 +19,7 @@ public class MarkdownParseTest {
         ArrayList<String> expected = new ArrayList<>();
         expected.add("https://something.com");
         expected.add("some-page.html");
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -28,7 +28,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -37,7 +37,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class MarkdownParseTest {
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
         expected.add("https://something.com");
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -65,7 +65,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -74,7 +74,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
     @Test
@@ -92,7 +92,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
-        assertEquals(expected, links);
+        assertEquals(links, expected);
     }
 
 }
