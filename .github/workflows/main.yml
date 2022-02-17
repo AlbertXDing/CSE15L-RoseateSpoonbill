@@ -30,4 +30,3 @@ jobs:
         run: |
           echo The directory is: $GITHUB_WORKSPACE
           make test
-
